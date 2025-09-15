@@ -10,8 +10,9 @@
         android:id="@+id/coffee_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingVertical="10dp"
-        android:text="@string/coffee_titlee"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/coffee_title"
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal" />
@@ -20,16 +21,24 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginTop="10dp"
-        android:background="?android:attr/dividerVertical" />
+        android:background="?android:attr/listDivider" />
 
     <TextView
         android:id="@+id/coffee_desc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/coffe_detail"
+        android:text="@string/coffee_detail"
         android:textSize="16sp"
         android:gravity="center"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp" />
+
+    <!-- Tombol Back -->
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginTop="30dp" />
 
 </LinearLayout>

@@ -1,18 +1,19 @@
 <resources>
-    <string name="app_name">LAB_WEEK_03</string>
-
-    <string name="affogato_title">AFFOGATO</string>
-    <string name="affogato_desc">Espresso poured on a vanilla ice cream. Served in a cappuccino cup.</string>
-
-    <string name="americano_title">AMERICANO</string>
-    <string name="americano_desc">Espresso with added hot water (100-150 ml). Often served in a cappuccino cup. (The espresso is added into the hot water rather than all the water being flowed through the coffee that would lead to over extraction.)</string>
-
-    <string name="latte_title">CAFFE LATTE</string>
-    <string name="latte_desc">A tall, mild \'milk coffee\' (about 150-300 ml). An espresso with steamed milk and only a little milk foam poured over it. Serve in a latte glass or a coffee cup. Flavored syrup can be added.</string>
-
+    <string name="app_name">Lab Week 03</string>
     <string name="coffee_list">Coffee List</string>
-    <string name="select_a_coffee_to_see_details">Select a coffee to see details</string>
-    <string name="coffee_title">Coffee Title</string>
-    <string name="coffe_detail">Select a coffee to see details</string>
-    <string name="coffee_titlee">Coffee Title</string>
+    <string name="affogato_title">Affogato</string>
+    <string name="affogato_desc">Espresso dituangkan di atas es krim vanila, disajikan dalam cangkir cappuccino.</string>
+    <string name="americano_title">Americano</string>
+    <string name="americano_desc">Espresso yang diencerkan dengan air panas.</string>
+    <string name="latte_title">Caffe Latte</string>
+    <string name="latte_desc">Espresso dengan susu panas dan sedikit busa di atasnya.</string>
+    <string name="cappuccino_title">Cappuccino</string>
+    <string name="cappuccino_desc">Cappuccino adalah espresso dengan susu panas dan busa susu tebal di atasnya.</string>
+
+    <string name="mocha_title">Mocha</string>
+    <string name="mocha_desc">Mocha adalah perpaduan espresso, susu, dan cokelat yang creamy.</string>
+    <string name="coffee_title">coffee_title</string>
+    <string name="coffee_detail">coffee_detail</string>
+    <string name="back">Back</string>
+    <string name="Back">back\n</string>
 </resources>

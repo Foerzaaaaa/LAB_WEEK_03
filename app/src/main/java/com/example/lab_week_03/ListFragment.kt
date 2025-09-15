@@ -8,7 +8,6 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 
 class ListFragment : Fragment() {
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
@@ -26,16 +25,20 @@ class ListFragment : Fragment() {
         val coffeeList = listOf<View>(
             view.findViewById(R.id.affogato),
             view.findViewById(R.id.americano),
-            view.findViewById(R.id.latte)
+            view.findViewById(R.id.latte),
+            view.findViewById(R.id.cappuccino),
+            view.findViewById(R.id.mocha)
         )
 
         coffeeList.forEach { coffee ->
+            val fragmentBundle = Bundle().apply {
+                putInt(COFFEE_ID, coffee.id)
+            }
+
             coffee.setOnClickListener {
-                val fragmentBundle = Bundle().apply {
-                    putInt(COFFEE_ID, coffee.id)
-                }
                 coffee.findNavController().navigate(
-                    R.id.coffee_id_action, fragmentBundle
+                    R.id.coffee_id_action,
+                    fragmentBundle
                 )
             }
         }

@@ -63,5 +63,29 @@
             android:text="@string/latte_title"
             android:textSize="18sp" />
 
+        <!-- Cappuccino -->
+        <TextView
+            android:id="@+id/cappuccino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground"
+            android:text="@string/cappuccino_title"
+            android:textSize="18sp" />
+
+        <!-- Mocha -->
+        <TextView
+            android:id="@+id/mocha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground"
+            android:text="@string/mocha_title"
+            android:textSize="18sp" />
+
     </LinearLayout>
 </ScrollView>
